@@ -11,28 +11,30 @@
     <!--Description-->
     
         <meta name="description" content="软件设计模式的概念与意义 1. 软件设计模式的概念：
-​    又称 “设计模式”  是一套被反复使用的，多数人知晓的，经过官方分类编目的，代码设计经验的总结，描述了在软件设计过程中的一些不断重复发生的问题，以及该问题的解决方案。也就是说，它是解决特定问题的一系列套路，是前辈们的代码设计经验的总结，">
+​    又称 “设计模式”  是一套被反复使用的，多数人知晓的，经过官方分类编目的，代码设计经验的总结，描述了在软件设计过程中的一些不断重复发生的问题，以及该问题的解决方案。也就是说，它是解决特定问题的一系列套路，是前辈们的代码设计经验的总结，具有一定的普遍性，可以反复使用。其目的是为了提高代码的可重用性、代码的可读性和代码的可靠性。
+2. 学习设计模式的意义：
+​    设计模式的本质是面向对象设计原则的实际运用，是对类的封装性、继承性和多态性以及类的关联关系和组合关系的充分理解。">
     
 
     <!--Author-->
     
-        <meta name="author" content="John Doe">
+        <meta name="author" content="tangpp">
     
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Hexo">
+        <meta property="og:title" content="设计模式简介">
     
 
     <!--Open Graph Description-->
     
 
     <!--Open Graph Site Name-->
-    <meta property="og:site_name" content="Hexo">
+    <meta property="og:site_name" content="t">
 
     <!--Type page-->
     
-        <meta property="og:type" content="website">
+        <meta property="og:type" content="article">
     
 
     <!--Page Cover-->
@@ -43,7 +45,7 @@
 
     <!-- Title -->
     
-    <title>Hexo</title>
+    <title>设计模式简介 - t</title>
 
     <!-- Tachyons Core CSS -->
     <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
@@ -76,8 +78,8 @@
 <div class="w-100 bg-1 ph5-ns ph3 text-light">
     
     <nav class="db dt-l w-100 mw8 center border-box pv3">
-        <a class="db dtc-l v-mid link dim w-100 w-25-l tc tl-l mb2 mb0-l white" href="/" title="Hexo">
-            <img src="http://www.codeblocq.com/assets/projects/hexo-theme-anodyne/assets/anodyne.svg" class="dib h3" alt="Hexo">
+        <a class="db dtc-l v-mid link dim w-100 w-25-l tc tl-l mb2 mb0-l white" href="/" title="t">
+            <img src="http://www.codeblocq.com/assets/projects/hexo-theme-anodyne/assets/anodyne.svg" class="dib h3" alt="t">
         </a>
         <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
             
@@ -123,7 +125,7 @@
     <!-- Title -->
     <div class="w-100 mw8 center vh-40 dt">
         <div class="dtc v-mid white">
-            <h1 class="f1-l f2-m tc tc-m tl-ns">Untitled</h1>
+            <h1 class="f1-l f2-m tc tc-m tl-ns">设计模式简介</h1>
             <p class="f4 fw3 pab-100px tc tc-m tl-ns">2019-08-11</p>
         </div>
     </div>
@@ -142,12 +144,20 @@
                 <div class="fl w-100 w-70-l mw7 left fw3 lh-copy pr4-ns pr0-m post-content">
                     <!-- Tags Vertical -->
                     
+                        <div class="tags-container-vertical">
+                            <div class="tags-sub-container">
+                                <a class="fw3 ph1 dib" href="/tags/设计模式/">#设计模式</a>
+                            </div>
+                        </div>
+                    
 
                     <!-- Main Post Content -->
                     <h2 id="软件设计模式的概念与意义"><a href="#软件设计模式的概念与意义" class="headerlink" title="软件设计模式的概念与意义"></a>软件设计模式的概念与意义</h2><p> <strong>1. 软件设计模式的概念</strong>：</p>
 <p>​    又称 “设计模式”  是一套被反复使用的，多数人知晓的，经过官方分类编目的，代码设计经验的总结，描述了在软件设计过程中的一些不断重复发生的问题，以及该问题的解决方案。也就是说，它是解决特定问题的一系列套路，是前辈们的代码设计经验的总结，具有一定的普遍性，可以反复使用。其目的是为了提高代码的可重用性、代码的可读性和代码的可靠性。</p>
 <p><strong>2. 学习设计模式的意义：</strong></p>
 <p>​    设计模式的本质是面向对象设计原则的实际运用，是对类的封装性、继承性和多态性以及类的关联关系和组合关系的充分理解。</p>
+<a id="more"></a>
+
 <p><strong>设计模式具有以下几个优点</strong></p>
 <ul>
 <li>可以提高程序员的思维能力、编程能力和设计能力。</li>
@@ -163,11 +173,13 @@
 <p>​    模式问题的解决方案（Solution）包括设计的组成成分、它们之间的相互关系及各自的职责和协作方式。因为模式就像一个模板，可应用于多种不同场合，所以解决方案并不描述一个特定而具体的设计或实现，而是提供设计问题的抽象描述和怎样用一个具有一般意义的元素组合（类或对象的 组合）来解决这个问题。</p>
 <p><strong>4.效果</strong> </p>
 <p>​    描述了模式的应用效果以及使用该模式应该权衡的问题，即模式的优缺点。主要是对时间和空间的衡量，以及该模式对系统的灵活性、扩充性、可移植性的影响，也考虑其实现问题。显式地列出这些效果（Consequence）对理解和评价这些模式有很大的帮助。</p>
-<p>​    </p>
-<p>​    </p>
 
                     
                     <!-- Tags Bottom -->
+                    
+                        <div class="tags-container-bottom">
+                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/设计模式/">#设计模式</a>
+                        </div>
                     
 
                     <!-- Comments -->
@@ -184,7 +196,7 @@
                     <div class="mt5 mt0-l">
     <article class="dt db-l mw8 mw8-m mw5-ns center ml0-l bg-white mv3">
         <div class="dn dtc-m db-l v-mid tc pr4 pr0-l" style="min-width: 6rem;">
-            <img src="http://tachyons.io/img/avatar_1.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="John Doe">
+            <img src="http://tachyons.io/img/avatar_1.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="tangpp">
         </div>
         <div class="dtc db-l v-mid lh-copy measure center f6 black-50 tj">
             My name is Jonathan Klughertz and this is my blog.<br>I am a full stack software engineer with a strong front-end focus.<br> I currently live and work in Singapore, hit me up if you are in the region.
@@ -202,7 +214,7 @@
     <h3>Recent Posts</h3>
     
         <p>
-            <a href="/2019/08/11/pattern/">Untitled</a>
+            <a href="/2019/08/11/pattern/">设计模式简介</a>
         </p>
     
         <p>
